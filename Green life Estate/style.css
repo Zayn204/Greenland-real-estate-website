@@ -1,0 +1,171 @@
+body {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #E7D283;
+}
+
+.my-5 {
+    font-size: x-large;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #031355, #06b2f5, #031355);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .gradient-background-hash {
+    height: 1000px;
+    margin-bottom: 200px;
+  }
+
+  h1 {
+    font-size: 100px;
+  }
+
+  span {
+    color: white;
+  }
+
+  .gradient-background-hash {
+    background: linear-gradient(300deg, #543A14, #242424, #543A14);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    height: 850px;
+    border-radius: 25%;
+    margin-bottom: 100px;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .gradient-background-hash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 135vh;
+  }
+
+
+  .float {
+    background-color: #000000;
+    padding-left: 100px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 300px;
+    color: aliceblue;
+  }
+
+  .first-video {
+    float: left;
+    border-radius: 50px;
+    border: solid;
+    border-color: black;
+  }
+
+  .second-video {
+    float: left;
+    border-radius: 50px;
+    border: solid;
+    border-color: black;
+    
+  }
+
+  .third-video {
+    float: left;
+    border-radius: 50px;
+    border: solid;
+    border-color: black;
+   
+  }
+
+  .first-p {
+    clear: both;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .second-p {
+    clear: both;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .third-p {
+    clear: both;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .sponsor {
+    background-color: #E7D283;
+    margin: 100px;
+  }
+
+  #featured-3 {
+    line-height: 17px;
+  }
+
+  #featured-3 p {
+    font-size: large;
+  }
+  
+  .features2 {
+    margin-bottom: 100px;
+  }
+
+  .reen {
+    font-size: xx-large;
+  }
+
+
+  @media (max-width: 600px) {
+    body{
+      width: 100%;
+    }
+    
+    .first-p{
+      font-size: 7;
+    }
+
+    .first-video {
+      width: 250px;
+      height: 300px;
+    }
+
+    .second-video {
+      width: 250px;
+      height: 300px;
+    }
+
+    .third-video {
+      width: 250px;
+      height: 300px;
+    }
+
+    .first-p {
+      clear: left;
+    }
+
+  }
